@@ -1,0 +1,55 @@
+body {
+  background: #f4d04e;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.card {
+  background: #fff;
+  width: 300px;
+  padding: 25px;
+  text-align: left;
+  border: 1px solid #000;
+  border-radius: 15px;
+  height: fit-content;
+  box-shadow: 15px 15px 0px rgba(50, 50, 50, 9);
+}
+
+.caixa-amarela {
+  background: #f4d04e;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+h1 {
+  color: #f4d04e;
+  font-size: 22px;
+}
+
+footer span {
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+/* Responsivo */
+@media (max-width: 500px) {
+  h1 {
+    color: #000;
+  }
+}
